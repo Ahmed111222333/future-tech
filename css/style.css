@@ -343,6 +343,7 @@ a:hover {
     display: block;
     width: 100%;
     text-align: center;
+    padding: 8% 0;
 }
 
 .form-control a {
