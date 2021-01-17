@@ -19,3 +19,26 @@ $(window).on('scroll', function() {
     }
   });
 });
+var mybutton = document.getElementById("makedark"),
+ele=document.getElementById("dark");
+/* bg-black */
+mybutton.onclick=function(){
+    "use strict";
+    if(this.textContent==="Dark"){
+      ele.classList.add("dark");
+      this.textContent = "light";
+      ele.style.transition = "all 2s ease-in-out"
+    }else{
+      ele.classList.remove("dark");
+      this.textContent = "Dark";
+      ele.style.transition = "all 2s  ease-in-out"
+
+    }
+};
+if(this.textContent==="Dark"){
+  mybutton.classList.add("bg-black");
+}
+else{
+  mybutton.classList.add("bg-white");
+  
+}

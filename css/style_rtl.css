@@ -1,0 +1,16 @@
+.providetitle{
+    text-align: right !important;
+}
+.here{
+    text-align: right;
+}
+.here .text{
+    padding-right: 3%;
+}
+.head2 p{
+    padding-right: 0;
+}
+.ask {
+    text-align: right;
+    position: absolute;
+}

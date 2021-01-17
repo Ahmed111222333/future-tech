@@ -14,9 +14,6 @@ nav .active {
     border-bottom: 4px solid #5553B8;
 }
 
-.navbar-nav {
-    margin-left: auto;
-}
 .title {
     font-weight: 600;
     font-size: 16px;
@@ -453,7 +450,7 @@ footer .social a {
 }
 
 .head2 h1{
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     line-height: 1.8;
     font-weight: 900;
 }
@@ -477,3 +474,62 @@ footer .social a {
 }
 .provide h2{
     margin-top: 15%}
+.dark{
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+   /* transition: all 1.5s ease-in-out;*/
+}
+.dark .who{
+    background-color: transparent;
+}
+.dark .our-clients .row{
+    background-color: transparent;
+}
+.dark .head .container{
+    background: transparent;
+}
+.dark * {
+    color: #fff !important;
+}
+.dark .only{
+    background-color: transparent !important;
+    box-shadow: 0 6px 20px #cac4ce !important;
+
+}
+.dark .white{
+    background-color: transparent !important;
+}
+.dark footer{
+    background-color: transparent !important;
+    box-shadow: 0 6px 20px #cac4ce !important;
+}
+.dark .form-control input, .dark .form-control textarea{
+    box-shadow: 0 6px 20px #cac4ce !important;
+  
+}
+.mode .bg-black{
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+}
+.mode .bg-white{
+    color: #000 !important;
+    font-weight: 700;
+}
+@media (max-width: 992px){
+    .navbar-nav{
+        background-color: rgba(0, 0, 0, .5);
+        color: #fff !important;
+    }    
+    .navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.who .col-md-4{
+    text-align: center;
+}
+}
+.dark .head2{
+    background: transparent;
+}
