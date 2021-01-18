@@ -467,6 +467,7 @@ footer .social a {
     background: linear-gradient(259.08deg, #D5ECFF 0.69%, #E6F2FC 100%);
     padding: 3% 0 7%;
     margin-bottom: 5%;
+    transition: background 1s ease-in-out;
 }
 .provide a{
     font-weight: 600;

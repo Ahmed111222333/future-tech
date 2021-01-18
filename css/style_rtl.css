@@ -14,3 +14,7 @@
     text-align: right;
     position: absolute;
 }
+.head2 img {
+    float: right;
+    margin-top: 15%;
+}
