@@ -534,3 +534,84 @@ footer .social a {
 .dark .head2{
     background: transparent;
 }
+.header-scrolled{
+    background: rgba(21, 34, 43, 0.5);
+    padding: 0;
+    color: #fff !important;
+    transition: all 1s ease-in-out;
+}
+.header-scrolled .nav-link{
+    color: #fff !important;
+}
+.company{
+    margin-top: 15%;   
+    text-align: center;
+}
+.company .h1{
+    font-weight: 700;
+    text-align: center;
+}
+.form img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    text-align: center;
+    margin-top: 10%;
+}
+.form img:hover{
+    transform: scale(1.1);
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+}
+.form .first_img {
+    margin-right: 15%;
+}
+@-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    50% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+  
+    50% {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  
+    100% {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  
+  .pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
+  

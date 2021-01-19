@@ -18,3 +18,10 @@
     float: right;
     margin-top: 15%;
 }
+nav .mr-3{
+    margin-left: 1rem !important;
+}
+.form .first_img{
+    margin-right: 0 !important;
+    margin-left: 10%; 
+}

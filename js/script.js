@@ -42,3 +42,10 @@ else{
   mybutton.classList.add("bg-white");
   
 }
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('nav').addClass('header-scrolled');
+    } else {
+      $('nav').removeClass('header-scrolled');
+    }
+  });
